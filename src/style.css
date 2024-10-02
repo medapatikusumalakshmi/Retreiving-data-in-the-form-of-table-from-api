@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#maindiv{
+    position:relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(255, 228, 196, 0.9);
+
+    
+}
+#tab{
+    position: absolute;
+    left: 18%;
+    bottom: 35%;
+   background-color: pink;
+   padding: 10px;
+   /* color: blue; */
+   font-weight: bold;
+   font-size: 1rem;
+}
+#tab td{
+    padding: 10px;
+}
+#tab th{
+    padding: 12px;
+    font-size: 2rem;
+}
+#img1{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 8%; 
+    bottom: 58%; 
+}
+
+#img2{
+    height: 120px;
+    width: 150px;
+    position: absolute;
+    left: 58%; 
+    bottom: 28%; 
+}
+#img3{
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    left: 16%; 
+    bottom: 71%; 
+}
+#img4{
+    bottom: 0%;
+    right: 0%;
+    position: absolute;
+}
