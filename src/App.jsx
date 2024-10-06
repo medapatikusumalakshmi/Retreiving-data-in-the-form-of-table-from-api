@@ -12,9 +12,11 @@ export default class App extends Component{
   let api=fetch("https://jsonplaceholder.typicode.com/users")
   api.then(x=>x.json()).then(x=>{
     this.setState({users:x});
-    this.setState({heading:Object.keys(x[0]).slice(0,4)})
-  }) 
+    this.setState({heading:Object.keys(x[0]).slice(0,4)});
   }
+).catch(()=>{console.log("api is not working properly");}) }
+
+
   render() {
    
     return(
